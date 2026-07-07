@@ -71,10 +71,9 @@ submission_template/
    ```bash
    uv run python train_model.py
    ```
-1. **Run the test only**: using `just_test_model.py`, base models will not be trained and will be loaded from `model/best_model.pkl` instead. However, it still need ~45 minutes using a NVIDIA 4070 Ti Super.
-
-```bash
-uv run python just_test_model.py
-```
+1. **Run  only**: Using `just_test_model.py`, base models will not be trained and will be loaded from `model/best_model.pkl` instead. However, it still needs ~45 minutes using an NVIDIA 4070 Ti Super.
+   ```bash
+   uv run python just_test_model.py
+   ```
 
    This script will run your local validation with confidence intervals, train the final model on all data, save it to `models/best_model.pkl`, and output `submission.csv`.
