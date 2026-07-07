@@ -17,4 +17,7 @@ submission.csv
 .vscode/
 .idea/
 .DS_Store
-uv.lockmodels/best_model.pkl
+uv.lock
+
+models/best_model.pkl
+.ruff_cache/

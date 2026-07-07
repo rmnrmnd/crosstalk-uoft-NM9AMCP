@@ -23,7 +23,7 @@ _P = src.path_and_constants.Paths()
 _C = src.path_and_constants.Constants()
 
 # --------------------------------------------------------------------------- configuration
-QUICK_TEST = 1       # small/fast smoke test
+QUICK_TEST = 0       # small/fast smoke test
 SEED = 42
 EPOCHS = 3 if QUICK_TEST else 18
 BATCH = 1024

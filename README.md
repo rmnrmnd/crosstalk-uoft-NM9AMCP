@@ -61,6 +61,7 @@ submission_template/
 ## How to Run
 
 1. **Install UV**: to reproduce the results please install uv. pip will not work correctly.
+1. **Downlaod PKL file**: the .pkl file is 1 GB. I uploaded it to "https://drive.google.com/file/d/1NNu-0dLMNv9QPGSTD2vP5erBAAmQNGQO/view?usp=sharing". You can download and place it in model/. 
 1. **Install packages**:
    ```bash
    uv sync
